@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — EXTREMELABZ</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><div class="brand-badge">EL</div><div class="brand-name">EXTREMELABZ</div></div>
+      <nav class="menu" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a class="cta" href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger" data-menu-toggle aria-label="Open menu">☰</button>
+    </div>
+    <nav class="menu" data-menu-panel></nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h1 style="font-size:2rem; margin:0 0 8px; font-weight:900">Supplier & Wholesale Inquiries</h1>
+    <p class="small">We’re partnering with select suppliers and distributors. Send us details on your capabilities, certifications, and lead times.</p>
+    <form class="card" action="mailto:hello@extremelabz.com" method="post" enctype="text/plain">
+      <div class="row two">
+        <div><label for="name">Name</label><input id="name" name="Name" class="input" required></div>
+        <div><label for="company">Company</label><input id="company" name="Company" class="input"></div>
+      </div>
+      <div class="row two">
+        <div><label for="email">Email</label><input id="email" type="email" name="Email" class="input" required></div>
+        <div><label for="phone">Phone</label><input id="phone" name="Phone" class="input"></div>
+      </div>
+      <div class="row"><div><label for="type">Topic</label><select id="type" name="Topic" class="input"><option>Supplier Inquiry</option><option>Wholesale / Distribution</option><option>General Question</option></select></div></div>
+      <div class="row"><div><label for="message">Message</label><textarea id="message" name="Message" rows="6" class="input" placeholder="Certifications (cGMP/NSF), capacities, MOQs, lead times, samples."></textarea></div></div>
+      <button class="btn" type="submit">Send Email</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container section">
+    <div class="cols">
+      <div><div class="brand"><div class="brand-badge">EL</div><div class="brand-name">EXTREMELABZ</div></div></div>
+      <div><strong>Company</strong><br><a href="about.html">About</a><br><a href="contact.html">Contact</a></div>
+      <div><strong>Legal</strong><br><a href="privacy.html">Privacy</a><br><a href="terms.html">Terms</a></div>
+    </div>
+    <div class="copy">© 2025 EXTREMELABZ</div>
+  </div>
+</footer>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
